@@ -35,7 +35,6 @@
     }
 
     function ex005() {
-        $separador = "<hr>";
         $saudacao = "Sr.";
         $nome = "Mikhail";
         $sobrenome = "Dmitriev";
@@ -43,5 +42,29 @@
         $exp = "Excelentíssimo " . $saudacao . " " . $nome . " " . $sobrenome;
         echo $exp;
     }
-    ex005();
+
+    function ex006(){
+        $separador = "<hr>";
+        echo 2 == 1;
+        echo $separador;
+        echo 9 == "9";
+    }
+    function ex007() {
+        $a = 5;
+        $b = 3;
+
+        if ($a == $b) {
+            echo "igual";
+        }
+        if ($a != $b) {
+            echo "diferente";
+        }
+        if ($a === $b) {
+            echo "idêntico";
+        }
+        if ($a !== $b) {
+            echo "não idêntico";
+        }
+    }
+    ex007();
 ?>
