@@ -66,5 +66,4 @@
             echo "não idêntico";
         }
     }
-    ex007();
 ?>
