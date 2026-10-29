@@ -49,6 +49,7 @@
         echo $separador;
         echo 9 == "9";
     }
+
     function ex007() {
         $a = 5;
         $b = 3;
@@ -64,6 +65,30 @@
         }
         if ($a !== $b) {
             echo "não idêntico";
+        }
+    }
+
+    function ex008() {
+        if (
+            (15 > 5 && "João" === "João") &&
+            ("teste" > 5 && 1) &&
+            (2 == 3 && 5 >= 3)
+        ) {
+            echo "Sim";
+        } else {
+            echo "Não";
+        }
+    }
+
+    function ex009() {
+        if (
+            (12 < 5 || "João" === "João") ||
+            (1 > 5 || 1) ||
+            (20 === "20" && 51 >= 31)
+        ) {
+            echo "Sim";
+        } else {
+            echo "Não";
         }
     }
 ?>
